@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 dir="$HOME/.config/rofi"
-style='style'
+style='config'
 
 ## Run command
 rofi -show drun -theme ${dir}/${style}.rasi
