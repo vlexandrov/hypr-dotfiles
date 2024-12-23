@@ -57,15 +57,6 @@ mainbox {
     children:                    [ "inputbar", "listbox" ];
 }
 
-/*  listbox */
-listbox {
-    spacing:                     20px;
-    padding:                     20px;
-    background-color:            transparent;
-    orientation:                 vertical;
-    children:                    [ "message", "listview" ];
-}
-
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
@@ -76,4 +67,13 @@ inputbar {
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry", "dummy", "mode-switcher" ];
+}
+
+/*  listbox */
+listbox {
+    spacing:                     20px;
+    padding:                     20px;
+    background-color:            transparent;
+    orientation:                 vertical;
+    children:                    [ "message", "listview" ];
 }
