@@ -11,10 +11,10 @@
 configuration {
 	modi:                       "drun,run,filebrowser,window";
     show-icons:                 true;
-    display-drun:               "";
-    display-run:                "";
-    display-filebrowser:        "";
-    display-window:             "";
+    display-drun:               " ";
+    display-run:                " ";
+    display-filebrowser:        "󰉋 ";
+    display-window:             " ";
 	drun-display-format:        "{name}";
 	window-format:              "{w} · {c} · {t}";
 }
@@ -24,7 +24,7 @@ configuration {
 //@import                          "shared/fonts.rasi"
 
 * {
-    font: "JetBrainsMono Nerd Font 10";
+    font: "JetBrainsMono Nerd Font 12";
 
     background:     #1E2127FF;
     background-alt: #282B31FF;
@@ -65,7 +65,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       600px;
+    width:                       800px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -123,7 +123,7 @@ prompt {
 }
 textbox-prompt-colon {
     enabled:                     true;
-    padding:                     5px 0px;
+    padding:                     5px 10px;
     expand:                      false;
     str:                         "";
     background-color:            inherit;
@@ -247,6 +247,8 @@ element-icon {
     text-color:                  inherit;
     size:                        24px;
     cursor:                      inherit;
+    //vertical-align: 0.5;
+    //horizontal-align: 1.0;
 }
 element-text {
     background-color:            transparent;
@@ -270,7 +272,7 @@ mode-switcher{
     text-color:                  @foreground-colour;
 }
 button {
-    padding:                     5px 10px;
+    padding:                     5px 20px;
     border:                      0px solid;
     border-radius:               10px;
     border-color:                @border-colour;
