@@ -72,7 +72,7 @@ inputbar {
     padding:                     80px 60px;
     background-color:            transparent;
     //background-color:            @background-alt;
-    background-image:            url("~/.config/rofi/images/katia.jpg", width);
+    background-image:            url("~/.config/rofi/images/katia2.jpg", width);
     text-color:                  @foreground;
     orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon", "entry", "dummy", "mode-switcher" ];
