@@ -47,3 +47,12 @@ window {
     cursor:                      "default";
     background-color:            @background;
 }
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    background-color:            transparent;
+    orientation:                 vertical;
+    children:                    [ "inputbar", "listbox" ];
+}
